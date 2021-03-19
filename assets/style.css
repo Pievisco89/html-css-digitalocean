@@ -21,6 +21,10 @@
   padding-top: 50px;
 }
 
+.pv-margin-top-25{
+  margin-top: 25px;
+}
+
 /* header */
 header{
   position: fixed;
@@ -63,4 +67,9 @@ header{
 /* designed */
 #designed{
   min-height: 780px;
+}
+
+/* features */
+#features{
+  min-height: 440px;
 }
