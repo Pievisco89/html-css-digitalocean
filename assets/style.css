@@ -8,6 +8,10 @@
   background-color: #f3f5f9;
 }
 
+.bg-white{
+  background-color: white;
+}
+
 /* header */
 header{
   position: fixed;
@@ -36,4 +40,13 @@ header{
 /* innovative */
 #innovative{
   min-height: 220px;
+}
+
+.pv-innovative{
+  padding-top: 15px;
+}
+
+/* deploy */
+#deploy{
+  min-height: 695px;
 }
