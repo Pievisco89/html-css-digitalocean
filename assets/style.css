@@ -12,6 +12,15 @@
   background-color: white;
 }
 
+.pv-wrapper-60{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.pv-padding-50{
+  padding-top: 50px;
+}
+
 /* header */
 header{
   position: fixed;
@@ -49,4 +58,9 @@ header{
 /* deploy */
 #deploy{
   min-height: 695px;
+}
+
+/* designed */
+#designed{
+  min-height: 780px;
 }
