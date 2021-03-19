@@ -1,3 +1,8 @@
+/* debug */
+.debug{
+  background-color: rosybrown;
+}
+
 /* header */
 header{
   position: fixed;
@@ -7,4 +12,19 @@ header{
   z-index: 999;
   background-color: #f3f5f9;
   color: black;
+}
+
+/* jumbotron */
+#jumbotron{
+  min-height: 490px;
+  margin-top: 65px;
+  background-color: blue;
+}
+
+.pv-jumbo{
+  margin: 65px auto;
+}
+
+.pv-jumbo-box{
+  min-height: 360px;
 }
