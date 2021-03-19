@@ -28,3 +28,9 @@ header{
 .pv-jumbo-box{
   min-height: 360px;
 }
+
+/* innovative */
+#innovative{
+  background-color: #f3f5f9;
+  min-height: 220px;
+}
