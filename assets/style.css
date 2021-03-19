@@ -21,6 +21,10 @@
   padding-top: 50px;
 }
 
+.pv-margin-top-50{
+  margin-top: 50px;
+}
+
 .pv-margin-top-25{
   margin-top: 25px;
 }
@@ -100,3 +104,15 @@ header{
     margin-top: 35px;
   }
 }
+
+/* Footer */
+.footer-top{
+  min-height: 250px;
+  background-color: #034b93;
+}
+
+.footer-bottom{
+  min-height: 525px;
+  background-color: #052f55;
+}
+
