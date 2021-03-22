@@ -40,6 +40,7 @@ body{
 .pv-fs-10{
 font-size: 10px;
 }
+
 /* bg-color */
 .bg-grey{
   background-color: #f3f5f9;
@@ -158,7 +159,7 @@ header .pv-hamb{
   border-radius: 5px;
 }
 
-.pv-jumbo-box-right h4{
+.pv-jumbo-box-right h3{
   font-size: 20px;
 }
 
@@ -203,8 +204,10 @@ header .pv-hamb{
   min-height: 220px;
 }
 
-.pv-innovative{
-  padding-top: 15px;
+#innovative .pv-innovative h4{
+  text-transform: uppercase;
+  font-size: 14px;
+  color: grey;
 }
 
 /* deploy */
