@@ -21,9 +21,18 @@ body{
   font-weight: 700;
 } 
 
-.pv-text-white{
+.pv-fc-white{
   color: white;
 }
+
+.pv-fc-grey{
+  color: lightgrey;
+}
+
+.pv-fc-blue{
+  color: rgb(5, 5, 252);
+}
+
 /* bg-color */
 .bg-grey{
   background-color: #f3f5f9;
@@ -99,18 +108,71 @@ header .pv-hamb{
 #jumbotron{
   min-height: 490px;
   margin-top: 65px;
-  background-color: blue;
   background-image: url(img/bg-banner-home.jpg);
   background-size: cover;
+}
+
+#jumbotron h1{
+  font-size: 30px;
+}
+
+#jumbotron .pv-jumbo-box p{
+  font-size: 16px;
+}
+
+@media all and (min-width:1199px){
+  #jumbotron h1{
+    font-size: 45px;
+  }
+  #jumbotron .pv-jumbo-box{
+    padding-right: 60px;
+  }
 }
 
 .pv-jumbo{
   margin: 65px auto;
 }
 
-.pv-jumbo-box{
+.pv-jumbo-box-left,
+.pv-jumbo-box-right{
+  padding-top: 65px;
   min-height: 360px;
 }
+
+.pv-jumbo-box-right{
+  border-radius: 5px;
+}
+
+.pv-jumbo-box-right h4{
+  font-size: 20px;
+}
+
+.pv-jumbo-box-right ::placeholder{
+  color: grey;
+  font-weight: 500;
+}
+
+.pv-btn{
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+.pv-account{
+  margin-bottom: 10px;
+  background-color: #12a0fe;
+}
+
+.pv-btn.pv-google span{
+  color: rgb(99, 99, 99);
+}
+
+.pv-jumbo-box-right img{
+  width: 18px;
+}
+
 
 /* innovative */
 #innovative{
