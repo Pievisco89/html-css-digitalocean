@@ -38,7 +38,15 @@ body{
 }
 
 .pv-fs-10{
-font-size: 10px;
+  font-size: 10px;
+}
+
+.pv-fs-16{
+  font-size: 16px;
+}
+
+.pv-fs-18{
+  font-size: 18px;
 }
 
 /* bg-color */
@@ -87,7 +95,6 @@ header{
   width: 100%;
   height: 65px;
   z-index: 999;
-  color: black;
 }
 
 header img{
@@ -215,10 +222,33 @@ header .pv-hamb{
   min-height: 695px;
 }
 
+#deploy p{
+  color: grey;
+}
+
+#deploy h3{
+  font-size: 28px;
+}
+
+#deploy ul li{
+  list-style: none;
+  border-left: 2px solid lightgrey;
+  padding: 15px 15px;
+  color: grey;
+}
+
+@media all and (max-width:768px) {
+  #deloy ul{
+    padding-left: 0;
+  }
+}
+
 /* designed */
 #designed{
   min-height: 780px;
 }
+
+
 
 /* features */
 #features{
