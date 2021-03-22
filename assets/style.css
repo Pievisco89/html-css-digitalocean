@@ -33,6 +33,10 @@ body{
   color: #031b4e;
 }
 
+.pv-fc-lightgrey{
+  color: lightgrey;
+}
+
 .pv-fc-grey{
   color: grey;
 }
