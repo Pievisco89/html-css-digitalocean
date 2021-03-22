@@ -41,6 +41,14 @@ body{
   font-size: 10px;
 }
 
+.pv-fs-12{
+  font-size: 12px;
+}
+
+.pv-fs-14{
+  font-size: 14px;
+}
+
 .pv-fs-16{
   font-size: 16px;
 }
@@ -75,10 +83,13 @@ body{
   padding: 30px;
 }
 
+.pv-padding-right-20{
+  padding-right: 20%;
+}
+
 .pv-padding-bottom-30{
   padding-top: 30px;
 }
-
 
 .pv-margin-top-50{
   margin-top: 50px;
@@ -218,12 +229,9 @@ header .pv-hamb{
 }
 
 /* deploy */
-#deploy{
-  min-height: 695px;
-}
-
 #deploy p{
   color: grey;
+  margin-bottom: 20px;
 }
 
 #deploy h3{
@@ -238,9 +246,17 @@ header .pv-hamb{
 }
 
 @media all and (max-width:768px) {
-  #deloy ul{
+  #deploy ul{
+    padding-left: 0;
+    margin-bottom: 25px;
+  }
+  #deploy .deploy-box{
     padding-left: 0;
   }
+}
+
+#deploy img{
+  margin-bottom: 20px;
 }
 
 /* designed */
