@@ -33,6 +33,10 @@ body{
   color: #031b4e;
 }
 
+.pv-fc-grey{
+  color: grey;
+}
+
 .pv-fc-blue{
   color: rgb(5, 5, 252);
 }
@@ -57,6 +61,9 @@ body{
   font-size: 18px;
 }
 
+.pv-fs-28{
+  font-size: 28px;
+}
 /* bg-color */
 .bg-grey{
   background-color: #f3f5f9;
@@ -234,10 +241,6 @@ header .pv-hamb{
   margin-bottom: 20px;
 }
 
-#deploy h3{
-  font-size: 28px;
-}
-
 #deploy ul li{
   list-style: none;
   border-left: 2px solid lightgrey;
@@ -260,11 +263,28 @@ header .pv-hamb{
 }
 
 /* designed */
-#designed{
-  min-height: 780px;
-}
+#designed .pv-wrapper-60 .row img{
+  width: 60%;
+  margin: 0 auto;
+  display: inline-block;
+ }
 
+#designed .pv-wrapper-60 .row .angle{
+  font-size: 35px;
+  padding: 25px;
+ }
 
+ #designed .pv-wrapper-60 .row .circle{
+   padding-top: 10px;
+ }
+
+ .active{
+   border-radius: 50%;
+ }
+
+ .active:hover{
+   background-color: rgb(5, 5, 252);
+ }
 
 /* features */
 #features{
