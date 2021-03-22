@@ -29,10 +29,17 @@ body{
   color: lightgrey;
 }
 
+.pv-fc-dark{
+  color: #031b4e;
+}
+
 .pv-fc-blue{
   color: rgb(5, 5, 252);
 }
 
+.pv-fs-10{
+font-size: 10px;
+}
 /* bg-color */
 .bg-grey{
   background-color: #f3f5f9;
@@ -51,9 +58,18 @@ body{
   padding-top: 50px;
 }
 
-.pv-padding-top{
+.pv-padding-top-15{
   padding-top: 15px;
+} 
+
+.pv-padding-top-30{
+  padding: 30px;
 }
+
+.pv-padding-bottom-30{
+  padding-top: 30px;
+}
+
 
 .pv-margin-top-50{
   margin-top: 50px;
@@ -113,19 +129,20 @@ header .pv-hamb{
 }
 
 #jumbotron h1{
-  font-size: 30px;
+  font-size: 35px;
 }
 
-#jumbotron .pv-jumbo-box p{
-  font-size: 16px;
+#jumbotron .pv-jumbo-box-left p{
+  font-size: 20px;
 }
 
 @media all and (min-width:1199px){
   #jumbotron h1{
-    font-size: 45px;
+    font-size: 55px;
+    padding-right: 15%;
   }
-  #jumbotron .pv-jumbo-box{
-    padding-right: 60px;
+  #jumbotron .pv-jumbo-box-left p{
+    padding-right: 12%;
   }
 }
 
@@ -133,10 +150,8 @@ header .pv-hamb{
   margin: 65px auto;
 }
 
-.pv-jumbo-box-left,
-.pv-jumbo-box-right{
-  padding-top: 65px;
-  min-height: 360px;
+.pv-jumbo-box-left{
+  padding-left: 0;
 }
 
 .pv-jumbo-box-right{
@@ -169,10 +184,19 @@ header .pv-hamb{
   color: rgb(99, 99, 99);
 }
 
-.pv-jumbo-box-right img{
-  width: 18px;
+.pv-btn.pv-google{
+  margin-bottom: 20px;
+  box-shadow: 1px 1px #888888;
 }
 
+.pv-jumbo-box-right img{
+  width: 18px;
+  margin-left: 0;
+}
+
+.pv-jumbo-box-right a{
+  text-decoration: underline;
+}
 
 /* innovative */
 #innovative{
