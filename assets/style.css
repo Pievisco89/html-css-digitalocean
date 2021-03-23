@@ -497,3 +497,21 @@ header .pv-hamb{
   background-color: red;
 }
 
+@media all and (max-width:991px){
+  .footer-fixed .shark-box{
+    bottom: 140px;
+    left: 35px;
+  }
+  .shark-text{
+    bottom: 55px;
+    left: 35px;
+  }
+  .triangle{
+    bottom: 65px;
+    left: 380px;
+  }
+  .shark-circle{
+    bottom: 185px;
+    left: 80px;
+  }
+}
