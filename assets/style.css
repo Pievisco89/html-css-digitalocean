@@ -270,6 +270,12 @@ header .pv-hamb{
   color: grey;
 }
 
+#innovative .row a::after{
+  position: absolute;
+  content: '>';
+  margin-left: 10px;
+}
+
 /* deploy */
 #deploy p{
   color: grey;
@@ -331,6 +337,12 @@ header .pv-hamb{
   color: grey;
 }
 
+#features .row a::after{
+  position: absolute;
+  content: '>';
+  margin-left: 10px;
+}
+
 @media all and (max-width:768px) {
   #features img{
     margin-top: 25px;
@@ -363,6 +375,12 @@ header .pv-hamb{
 
 #development .pv-wrapper-60 .angle{
   margin-top: 100%;
+}
+
+#development .rockerbox-text a::after{
+  position: absolute;
+  content: '>';
+  margin-left: 10px;
 }
 
 /* Footer */
