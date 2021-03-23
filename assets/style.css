@@ -83,12 +83,8 @@ body{
   margin: 0 auto;
 }
 /* padding-margin */
-.pv-padding-50{
-  padding-top: 50px;
-}
-
 .pv-padding-top-10{
-  padding-top: 1px;
+  padding-top: 10px;
 }
 
 .pv-padding-top-15{
@@ -105,6 +101,10 @@ body{
 
 .pv-padding-top-30{
   padding-top: 30px;
+}
+
+.pv-padding-top-50{
+  padding-top: 50px;
 }
 
 .pv-padding-right-20{
@@ -382,6 +382,14 @@ header .pv-hamb{
   list-style: none;
 }
 
-.footer-bottom li{
+.footer-bottom-list-left li{
   display: inline;
+}
+
+.footer-bottom-list-right li{
+  padding: 5px 0;
+}
+
+.proudly{
+  color: rgb(95, 91, 91);
 }
