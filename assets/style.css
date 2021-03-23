@@ -190,10 +190,6 @@ header .pv-hamb{
   font-size: 35px;
 }
 
-#jumbotron .pv-jumbo-box-left p{
-  font-size: 20px;
-}
-
 @media all and (min-width:1199px){
   #jumbotron h1{
     font-size: 55px;
@@ -358,6 +354,12 @@ header .pv-hamb{
 
 #service a{
   color: rgb(4, 206, 206);
+}
+
+#service .row a::after{
+  position: absolute;
+  content: '>';
+  margin-left: 10px;
 }
 
 @media all and (max-width:1199px) {
