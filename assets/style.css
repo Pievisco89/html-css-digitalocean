@@ -61,6 +61,10 @@ body{
   font-size: 18px;
 }
 
+.pv-fs-20{
+  font-size: 20px;
+}
+
 .pv-fs-30{
   font-size: 30px;
 }
@@ -83,6 +87,10 @@ body{
   padding-top: 50px;
 }
 
+.pv-padding-top-10{
+  padding-top: 1px;
+}
+
 .pv-padding-top-15{
   padding-top: 15px;
 } 
@@ -91,8 +99,12 @@ body{
   padding-bottom: 15px;
 }
 
+.pv-padding-top-20{
+  padding-top: 20px;
+}
+
 .pv-padding-top-30{
-  padding: 30px;
+  padding-top: 30px;
 }
 
 .pv-padding-right-20{
@@ -100,7 +112,7 @@ body{
 }
 
 .pv-padding-bottom-30{
-  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .pv-margin-top-50{
@@ -113,6 +125,10 @@ body{
 
 .pv-margin-bottom-20{
   margin-bottom: 20px;
+}
+
+.pv-padding-40{
+  padding: 40px;
 }
 /* border-bottom */
 .pv-bottom{
@@ -281,12 +297,12 @@ header .pv-hamb{
   display: inline-block;
  }
 
-#designed .pv-wrapper-60 .row .angle{
+.pv-wrapper-60 .row .angle{
   font-size: 35px;
   padding: 25px;
  }
 
-#designed .pv-wrapper-60 .row .circle{
+.pv-wrapper-60 .row .circle{
   background-color: rgb(5, 5, 252);
   border-radius: 50%;
  }
@@ -330,6 +346,16 @@ header .pv-hamb{
     padding-top: 30px;
     padding-bottom: 50px;
   }
+}
+
+/* Development */
+.rockerbox-text{
+  border-radius: 10px;
+  padding-top: 50px;
+}
+
+#development .pv-wrapper-60 .angle{
+  margin-top: 100%;
 }
 
 /* Footer */
