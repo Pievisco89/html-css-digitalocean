@@ -240,7 +240,8 @@ header .pv-hamb{
 
 .pv-btn.pv-google{
   background-image: url(img/google-icon.png);
-  background-size: 28px 28px;
+  background-size: contain;
+  padding: 7px;
   background-repeat: no-repeat;
   margin-bottom: 20px;
   box-shadow: 1px 1px #888888;
