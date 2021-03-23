@@ -25,10 +25,6 @@ body{
   color: white;
 }
 
-.pv-fc-grey{
-  color: lightgrey;
-}
-
 .pv-fc-dark{
   color: #031b4e;
 }
@@ -38,7 +34,7 @@ body{
 }
 
 .pv-fc-grey{
-  color: grey;
+  color: rgb(156, 151, 151);
 }
 
 .pv-fc-blue{
@@ -65,9 +61,10 @@ body{
   font-size: 18px;
 }
 
-.pv-fs-28{
-  font-size: 28px;
+.pv-fs-30{
+  font-size: 30px;
 }
+
 /* bg-color */
 .bg-grey{
   background-color: #f3f5f9;
@@ -89,6 +86,10 @@ body{
 .pv-padding-top-15{
   padding-top: 15px;
 } 
+
+.pv-padding-bottom-15{
+  padding-bottom: 15px;
+}
 
 .pv-padding-top-30{
   padding: 30px;
@@ -113,7 +114,10 @@ body{
 .pv-margin-bottom-20{
   margin-bottom: 20px;
 }
-
+/* border-bottom */
+.pv-bottom{
+  border-bottom: 1px solid white;
+}
 /* header */
 header{
   position: fixed;
@@ -317,19 +321,14 @@ header .pv-hamb{
   background-image: linear-gradient(rgb(30, 5, 175), blue);
 }
 
-#service li{
-  list-style: none;
-  padding: 20px;
-  border-bottom: 1px solid white;
+#service a{
+  color: rgb(4, 206, 206);
 }
 
-#service li.no-bottom{
-  border-bottom: none;
-}
-
-@media all and (max-width:1199px){
-  #speciale{
-    margin-top: 35px;
+@media all and (max-width:1199px) {
+  #service .pv-media-padding{
+    padding-top: 30px;
+    padding-bottom: 50px;
   }
 }
 
