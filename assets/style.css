@@ -110,6 +110,10 @@ body{
   margin-top: 25px;
 }
 
+.pv-margin-bottom-20{
+  margin-bottom: 20px;
+}
+
 /* header */
 header{
   position: fixed;
@@ -278,21 +282,32 @@ header .pv-hamb{
   padding: 25px;
  }
 
- #designed .pv-wrapper-60 .row .circle{
-   padding-top: 10px;
+#designed .pv-wrapper-60 .row .circle{
+  background-color: rgb(5, 5, 252);
+  border-radius: 50%;
  }
 
- .active{
-   border-radius: 50%;
- }
+.active{
+  border-radius: 50%;
+}
 
- .active:hover{
-   background-color: rgb(5, 5, 252);
- }
+.active:hover{
+  background-color: rgb(5, 5, 252);
+}
 
 /* features */
 #features{
   min-height: 440px;
+}
+
+#features p{
+  color: grey;
+}
+
+@media all and (max-width:768px) {
+  #features img{
+    margin-top: 25px;
+  }
 }
 
 /* service */
