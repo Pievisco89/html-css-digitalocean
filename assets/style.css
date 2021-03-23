@@ -478,3 +478,22 @@ header .pv-hamb{
   height: 10px;
   transform: rotate(45deg);
 }
+
+.shark-circle{
+  position: fixed;
+  bottom: 90px;
+  right: 25px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.shark-circle .shark-red{
+  height: 22px;
+  width: 22px;
+  line-height: 22px;
+  border-radius: 50%;
+  margin: 4px auto;
+  background-color: red;
+}
+
