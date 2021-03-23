@@ -111,6 +111,10 @@ body{
   padding-right: 20%;
 }
 
+.pv-padding-right-10{
+  padding-right: 10px;
+}
+
 .pv-padding-bottom-30{
   padding-bottom: 30px;
 }
@@ -369,3 +373,15 @@ header .pv-hamb{
   background-color: #052f55;
 }
 
+.footer-bottom img{
+  height: 50px;
+}
+
+.footer-bottom ul{
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer-bottom li{
+  display: inline;
+}
