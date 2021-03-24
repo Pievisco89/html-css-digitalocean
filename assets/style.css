@@ -1,5 +1,5 @@
 /* comuni */
-/* font */
+/* font color/weight/size */
 body{
   font-family: 'Roboto', sans-serif;
 }
@@ -73,10 +73,12 @@ body{
   background-color: white;
 }
 
+/* wrapper */
 .pv-wrapper-60{
   width: 60%;
   margin: 0 auto;
 }
+
 /* padding-margin */
 .pv-padding-top-10{
   padding-top: 10px;
@@ -85,10 +87,6 @@ body{
 .pv-padding-top-15{
   padding-top: 15px;
 } 
-
-.pv-padding-bottom-15{
-  padding-bottom: 15px;
-}
 
 .pv-padding-top-20{
   padding-top: 20px;
@@ -102,37 +100,43 @@ body{
   padding-top: 50px;
 }
 
-.pv-padding-right-20{
-  padding-right: 20%;
-}
-
-.pv-padding-right-10{
-  padding-right: 10px;
+.pv-padding-bottom-15{
+  padding-bottom: 15px;
 }
 
 .pv-padding-bottom-30{
   padding-bottom: 30px;
 }
 
-.pv-margin-top-50{
-  margin-top: 50px;
+.pv-padding-right-10{
+  padding-right: 10px;
+}
+
+.pv-padding-40{
+  padding: 40px;
+}
+
+.pv-padding-right-20{
+  padding-right: 20%;
 }
 
 .pv-margin-top-25{
   margin-top: 25px;
 }
 
+.pv-margin-top-50{
+  margin-top: 50px;
+}
+
 .pv-margin-bottom-20{
   margin-bottom: 20px;
 }
 
-.pv-padding-40{
-  padding: 40px;
-}
 /* border-bottom */
 .pv-bottom{
   border-bottom: 1px solid white;
 }
+
 /* header */
 header{
   position: fixed;
@@ -315,10 +319,6 @@ header .pv-hamb{
   }
 }
 
-#deploy img{
-  margin-bottom: 20px;
-}
-
 /* designed */
 #designed .pv-wrapper-60 .row img{
   width: 60%;
@@ -347,10 +347,6 @@ header .pv-hamb{
 /* features */
 #features{
   min-height: 440px;
-}
-
-#features p{
-  color: grey;
 }
 
 #features .row a::after{
@@ -488,8 +484,8 @@ header .pv-hamb{
 }
 
 .shark-circle .shark-red{
-  height: 22px;
-  width: 22px;
+  height: 21px;
+  width: 21px;
   line-height: 22px;
   border-radius: 50%;
   margin: 4px auto;
